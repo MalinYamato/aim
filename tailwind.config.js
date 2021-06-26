@@ -6,9 +6,18 @@ module.exports = {
     './src/**/*.vue',
   ],
   darkMode: 'class', // or 'media' or 'class'
+
   theme: {
     extend: {
+      textColor: {
+        'turquoise-300' : '#40E0D0',
+        'turquoise-400' : '#48D1CC',
+        'turquoise-500' : '#00CED1',
+      },
       colors: {
+        'turquoise-300' : '#40E0D0',
+        'turquoise-500' : '#00CED1',
+
         'black': '#12151E',
         'hot-pink': '#fd2d78',
         'gray-900': '#18191a',

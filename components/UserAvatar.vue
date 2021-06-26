@@ -12,7 +12,7 @@ export default {
   },
   computed: {
     imageURL() {
-      const avatar = `https://ui-avatars.com/api/?uppercase=false&background=212324&color=4f46e5&rounded=true&name=${this.name}`
+      const avatar = `https://ui-avatars.com/api/?uppercase=false&background=212324&color=00CED1&rounded=true&name=${this.name}`
       if (!this.photoURL || this.imageLoadError)
         return avatar
       return this.photoURL

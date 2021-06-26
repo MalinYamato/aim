@@ -1,17 +1,17 @@
 // Upload files in static/ So any file static/file.pdf -> /file.pdf is accessible at root
 
 export default {
-  name: 'gyan prakash karn',
-  domain: 'template.karngyan.com', // add without https:// , used in meta tags and share urls
-  image: '/images/bigheadkarngyan.png',
-  email: 'mail@karngyan.com',
+  name: 'Malin Yamato Lääkkö',
+  domain: 'malin.jp', // add without https:// , used in meta tags and share urls
+  image: '/images/med.png',
+  email: 'malin@malin.jp',
   googleAnalyticsV4: {
     enabled: false,
     id: ''
   },
   plausibleAnalytics: {
     enabled: true,
-    domain: 'template.karngyan.com',
+    domain: 'malin.jp',
     trackLocalhost: false,
     // leave it empty if plausible is not self hosted
     apiHost: 'https://analytics.lookatx.dev' // default: https://plausible.io
@@ -19,15 +19,12 @@ export default {
   // enable if you want comments and likes on posts
   // see how it looks on karngyan.com
   firebase: {
-    enabled: true
+    enabled: false
   },
   social: {
-    github: 'karngyan',
-    linkedin: 'karngyan',
-    facebook: 'karnsometimes',
-    twitter: 'gyankarn',
-    instagram: 'karngyan.dev',
-    codestats: 'karngyan' // https://codestats.net make a profile if you dont already have one.
+    github: 'MalinYamato',
+    linkedin: 'MalinYamato',
+    facebook: 'MalinYamato',
   },
   buyMeACoffee: {
     enabled: true,
@@ -65,7 +62,7 @@ export default {
     ]
   },
   loadingIndicator: {
-    name: 'pulse'
+    name: 'nuxt'
     // https://tobiasahlin.com/spinkit/
     // circle
     // cube-grid
@@ -84,7 +81,7 @@ export default {
       download: 'download',
       nav: {
         home: 'home',
-        blog: 'blog',
+        blog: 'resources',
         projects: 'projects',
         uses: 'uses',
         resume: 'résumé',
@@ -95,21 +92,21 @@ export default {
       hero: {
         iBlogTech: 'i blog tech',
         haveALook: 'have a look',
-        friendlyNeighborhood: 'your friendly neighborhood',
-        description: 'i am a software engineer and a part time freelancer. i blog tech, write a weekend newsletter called software shots, and tinker with side projects every now n then.',
-        words: ['developer', 'designer', 'engineer', 'programmer', 'encoder'],
+        friendlyNeighborhood: 'Artificial Intelligence in Medicine AIM',
+        description: 'Hi there, I am Malin Yamato, - a postgraduate student in Computer Sciences with a specialization in Artificial Intelligence at the department of Computer and Systems Sciences,  University of Stockholm. My thesis work is going to attempt to apply artificial intelligence to medicine which may consist of developing an artificial endocrine system in software, which I am gong to carry out at Karolinska Institute. To reach to this point I have studied one year medicine and will carry on studying one year data science and artificial intelligence.',
+        words: ['Artificial Intelligence', 'appplied to', 'Medicine','Human Physiology', 'Pharmacology', 'Biochemistry', 'Molecular Cell Biology'],
       },
       githubCalendar: {
         header: 'contributions',
         subtext: 'github calendar heatmap'
       },
       blog: {
-        header: 'blog',
-        subtext: 'i try to write once in a while. let me know your thoughts in comments or mail@karngyan.com'
+        header: 'Resources',
+        subtext: 'Documents and resources regarding Medicine, AI, etc -- malin@malin.jp'
       },
       recentBlog: {
         header: 'recent blogs',
-        subtext: 'it takes a lot of time to write man'
+        subtext: ''
       },
       uses: {
         header: 'uses',
@@ -117,7 +114,7 @@ export default {
       },
       projects: {
         header: 'projects',
-        subtext: 'this page lists some of my personal and work projects. every project has some story, click on the title to read'
+        subtext: 'this page explains my Thesis work in applying AI to medicine'
       }
     }
   }

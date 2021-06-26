@@ -1,4 +1,4 @@
-import config from './karngyan.config'
+import config from './aim.config'
 
 const createSitemapRoutes = async () => {
   let routes = [];
