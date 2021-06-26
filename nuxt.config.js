@@ -129,7 +129,7 @@ const nuxtConfig = {
 
   pwa: {
     icon: {
-      fileName: 'favicon.ico'
+      fileName: 'doesntowork_favicon.ico'
     },
     meta: {
       name: config.domain,

@@ -40,7 +40,7 @@ module.exports = {
                 color: theme('colors.gray.300'),
               },
               a: {
-                color: theme('colors.indigo.500'),
+                color: theme('colors.turquoise-500'),
               },
               strong: {
                 color: theme('colors.gray.200'),
