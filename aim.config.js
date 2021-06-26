@@ -93,7 +93,7 @@ export default {
         iBlogTech: 'i blog tech',
         haveALook: 'have a look',
         friendlyNeighborhood: 'Artificial Intelligence in Medicine AIM',
-        description: 'Hi there, I am Malin Yamato, - a postgraduate student in Computer Sciences with a specialization in Artificial Intelligence at the department of Computer and Systems Sciences,  University of Stockholm. My thesis work is going to attempt to apply artificial intelligence to medicine which may consist of developing an artificial endocrine system in software, which I am gong to carry out at Karolinska Institute. To reach to this point I have studied one year medicine and will carry on studying one year data science and artificial intelligence.',
+        description: 'Hi there, I am Malin Yamato, - a postgraduate student in Computer Sciences with a specialization in Artificial Intelligence at the department of Computer and Systems Sciences, University of Stockholm. My thesis work is going to attempt to create an artificial endocrine system in software by applying artificial intelligence at the deparment of Physiology and Pharmacology, Karolinska Institute 2022. I have completed a medcial year at Karolinska Institute with courses such as biochemistry, histology, human physiology, pharmacology, microbiology and molecular cell biololgoy and will carry on studying one year Artificial Intelliegnce and data science at Stockholm Unniversty.',
         words: ['Artificial Intelligence', 'appplied to', 'Medicine','Human Physiology', 'Pharmacology', 'Biochemistry', 'Molecular Cell Biology'],
       },
       githubCalendar: {
